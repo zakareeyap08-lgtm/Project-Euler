@@ -10,4 +10,4 @@ This repository serves as a showcase of algorithmic problem-solving and mathemat
 
 ## Problem Structure
 
-Each solution is organized within its respective directory or file named after the problem ID on Project Euler:
+Each solution is organized within a file named after the problem ID on Project Euler
