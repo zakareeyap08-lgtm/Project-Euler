@@ -4,10 +4,18 @@ A collection of personal solutions to mathematical and computational problems fr
 
 ## Overview
 
-This repository serves as a showcase of algorithmic problem-solving and mathematical logic. The scripts contained here focus on achieving functional, correct outputs for each problem, exploring core algorithms, mathematical patterns, and computational techniques.
+This repository serves as a personal collection of solutions to mathematical and computational challenges from [Project Euler](https://projecteuler.net/).
 
-> **Note on Optimization:** These implementations emphasize correct logic and rapid prototyping over peak optimization or low-level performance tuning. They reflect early iterative attempts to tackle complex mathematical challenges.
+> **Note on Optimization & Implementation:** The solutions currently in this repository primarily rely on direct **brute-force methods**. Designed for rapid prototyping and immediate functional output, these scripts focus on establishing core logic rather than applying advanced algorithmic optimizations or low-level performance tuning.
 
-## Problem Structure
+## Technologies & Setup
 
-Each solution is organized within a file named after the problem ID on Project Euler
+* **Language:** Python 3.x
+* **Dependencies:** Standard Library (unless otherwise specified in individual problem files)
+
+### Prerequisites
+
+To run any of the solutions locally, ensure you have Python 3 installed:
+
+```bash
+python3 --version
