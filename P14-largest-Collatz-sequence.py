@@ -1,19 +1,19 @@
 finalchain = 1
 chain = 0
 num = 0
+finalnum = 0
 
-for i in range (1000000,1,-1):
+for i in range (837799,1,-1):
     num = i
     chain = 0
     while num != 1:
         if num % 2 == 0:
-            num = num / 2
-            chain += 1 
+            num = num // 2
         else:
             num = 3*num + 1 
-            chain += 1 
+        chain += 1 
     if chain > finalchain:
         finalchain = chain
-        print(finalchain)
-        print(i)
+        finalnum = i
         
+print(finalnum)
