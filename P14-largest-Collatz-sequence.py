@@ -3,7 +3,7 @@ chain = 0
 num = 0
 finalnum = 0
 
-for i in range (837799,1,-1):
+for i in range (1000000,1,-1):
     num = i
     chain = 0
     while num != 1:
