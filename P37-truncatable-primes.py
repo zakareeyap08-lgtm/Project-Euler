@@ -11,6 +11,7 @@ while len(truncatables) != 11:
     for i in range(2,int(math.sqrt(num)+1)):
         if num % i == 0:
             isprime = False
+            break
     if isprime:
         for i in range(0,len(temp)-1):
             temp = temp[:-1]
@@ -21,6 +22,8 @@ while len(truncatables) != 11:
                 if int(temp) % i == 0:
                     isprime = False
                     break
+            if not isprime:
+                break
     if isprime:
         temp = str(num)
         for i in range(0,len(temp)-1):
@@ -32,6 +35,8 @@ while len(truncatables) != 11:
                 if int(temp) % i == 0:
                     isprime = False
                     break
+            if not isprime:
+                break
     if isprime:
         truncatables.append(num)
         
@@ -39,3 +44,4 @@ for i in range(0,len(truncatables)):
     sum += truncatables[i]
     
 print(sum)
+
