@@ -4,10 +4,10 @@ pvalue = 0
 
 for p in range(120,1001):
     tempnum = 0
-    for a in range(1,p-1):
-        for b in range(1,p-a):
+    for a in range(1,p//3):
+        for b in range(a+1,(p-a)//2):
             c = p - a - b
-            if a+b+c==p and a*a+b*b==c*c:
+            if a*a+b*b==c*c:
                 tempnum += 3
     if tempnum > nums:
         nums = tempnum
